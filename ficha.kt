@@ -17,4 +17,10 @@ fun main() {
     vidaAtual = 80.0                      // O personagem tomou algum dano
     println("Vida atual apos dano: $vidaAtual")
 
+
+    println("Digite o nome do inimigo:")
+    val nomeInimigo = readln()
+    println("Um $nomeInimigo apareceu!") 
+
+
 }
