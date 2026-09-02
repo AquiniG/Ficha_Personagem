@@ -20,7 +20,16 @@ fun main() {
 
     println("Digite o nome do inimigo:")
     val nomeInimigo = readln()
-    println("Um $nomeInimigo apareceu!") 
+    println("Um $nomeInimigo apareceu!")
+    
+    
+    println("Quanto de dano o inimigo causou?")
+    val danoTexto = readln()
+    val dano = danoTexto.toInt()
+
+    vidaAtual = vidaAtual - dano
+    println("O inimigo causou $dano de dano!")
+    println("Vida atual apos o ataque: $vidaAtual")
 
 
 }
